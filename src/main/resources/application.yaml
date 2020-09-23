@@ -1,0 +1,9 @@
+#Spring config
+server:
+  servlet:
+    context-path: '/demo'
+#Spring Boot Actuator
+management:
+  endpoints:
+    web:
+      base-path: '/manage'
